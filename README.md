@@ -109,7 +109,7 @@ docker exec -it matrix-dendrite /usr/bin/create-account -config /etc/dendrite/de
 ## Тестирование сервера
 Есть множество вариантов, например, [testmatrix](https://codeberg.org/spaetz/testmatrix), - после установки инструмента в консоли `VS Code` введите команду:
 ```bash
-testmatrix exemple.com
+testmatrix example.com
 ```
 <details>
 <summary>инструмент укажет на проблемы с сервером</summary>
@@ -141,7 +141,7 @@ Testing server example.com
 Можно протестировать и авторизацию с указанием пользователя и токена (который можно найти в UI клиента после регистрации пользователя; например, в Element Web - клик на пользователе > Все настройки > Помощь и о программе > Токен доступа)
 
 ```bash
-testmatrix -u admin -t <token> exemple.com
+testmatrix -u admin -t <token> example.com
 ```
 
 ### Тестирование в браузере
